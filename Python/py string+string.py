@@ -1,0 +1,6 @@
+name1 = input("apple")
+name2 = input("banana")
+name3 = input("c")
+name4 = input("d")
+name5 = input("e")
+print("apple" + "banana" + "c" + "d" + "e")
