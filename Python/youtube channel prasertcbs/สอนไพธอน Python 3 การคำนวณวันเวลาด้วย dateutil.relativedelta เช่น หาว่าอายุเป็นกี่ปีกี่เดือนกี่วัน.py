@@ -1,6 +1,5 @@
 # pip install python-dateutil มีแล้วไม่ต้องทำ
 from datetime import datetime, date
-
 from dateutil.relativedelta import relativedelta, SA, TH
 
 def demo1():
