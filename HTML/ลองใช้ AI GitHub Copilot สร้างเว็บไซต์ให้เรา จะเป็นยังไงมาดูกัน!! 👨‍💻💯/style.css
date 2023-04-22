@@ -1,0 +1,29 @@
+#header {
+    background-color: antiquewhite;
+    padding:  30px;
+    text-align: center;
+}
+
+#menu {
+    background-color: aqua;
+    padding: 0%;
+}
+#menu ul{
+    list-style-type: none;
+    padding: 0%;
+}
+#menu ul li {
+    display: inline;
+}
+
+#content {
+    background-color: bisque;
+    padding: 10px;
+    text-align: center;
+
+#footer {
+    margin-top: 2rem;
+    background-color: burlywood;
+    padding: 10px;
+    text-align: center;
+}
