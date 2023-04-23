@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 #ดึงข้อมูล
-url = "https://notebookspec.com/topchart/mainboard.html"
+url = "https://notebookspec.com/topchart/cpu.html"
 res = requests.get(url)
 
 # สกัดข้อมูล
@@ -25,5 +25,7 @@ for i in cpu:
 
 # เก็บข้อมูล
 df = pd.DataFrame({'อันดับ': numls, 'รุ่นCPU': titlels, 'ราคา': pricels})
-df.to_csv('TOP100mb.csv')
-df.to_excel('TOP100mb.xlsx')
+df.to_csv('TOP100cpu.csv')
+df.to_excel('TOP100cpu.xlsx')
+print("complete")
+print("############################################################")
