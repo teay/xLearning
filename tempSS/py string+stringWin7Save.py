@@ -1,0 +1,6 @@
+name1 = input("apple ")
+name2 = input("banana ")
+name3 = input("coconut ")
+name4 = input("durian ")
+name5 = input("elderberry ")
+print("apple " + "banana " + "coconut " + "durain " + "elderberry ")
