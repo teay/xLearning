@@ -1,0 +1,26 @@
+#1000 500 100 50 20 10 5 2 1
+print("1000 500 100 50 20 10 5 2 1")
+print("")
+a = input("1000 จำนวนกี่ฉบับ    ")
+b = input("500  จำนวนกี่ฉบับ    ")
+c = input("100  จำนวนกี่ฉบับ    ")
+d = input("50   จำนวนกี่ฉบับ    ")
+e = input("20   จำนวนกี่ฉบับ    ")
+f = input("10   จำนวนกี่ฉบับ    ")
+g = input("5    จำนวนกี่เหรียญ  ")
+h = input("2    จำนวนกี่เหรียญ  ")
+i = input("1    จำนวนกี่เหรียญ  ")
+j = input("0    จำนวนกี่เหรียญ  ")
+sum = int(a) + int(b) + int(c) + int(d) + int(e) + int(f) + int(g) + int(h) + int(i) + int(j)
+print("ผลรวมเท่ากับ")
+print("รวม= " + str(sum))
+print("เสร็จละจ้า")
+print("##############################")
+print()
+print()
+print()
+print()
+a = 4
+b = 2
+total = a * b
+print( a,'x', b, '=', total )
