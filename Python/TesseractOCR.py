@@ -13,7 +13,7 @@ while(True):
     cropped_image = img[int(r[1]):int(r[1]+r[3]),
     int(r[0]):int(r[0]+r[2])]
     start = time.time()
-    readfromtess = pytesseract.image_to_string(cropped_image, lang='eng')
+    readfromtess = pytesseract.image_to_string(cropped_image, lang='tha+eng')
     print("result------")
     print(readfromtess.replace(" ", ""))
     end = time.time()
