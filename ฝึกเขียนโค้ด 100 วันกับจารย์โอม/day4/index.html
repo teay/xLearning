@@ -11,7 +11,7 @@
 <body>
 
     <div class="tab">
-        <button class="tablinks active" onclick="openCity(event, 'London');">
+        <button class="tablinks" onclick="openCity(event, 'London');">
             London
         </button>
 
@@ -21,13 +21,12 @@
 
         <button class="tablinks" onclick="openCity(event, 'Tokyo');">
             Tokyo
-        </button>  
+        </button>
     </div>
 
-    <div id="London" class="tabcontent" style="display: block;">
+    <div id="London" class="tabcontent">
         <h3>London</h3>
         <p>London is the capital city of England.</p>
-        <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
     </div>
 
     <div id="Paris" class="tabcontent">
@@ -40,7 +39,6 @@
         <p>Tokyo is the capital city of Japan.</p>
     </div>
 
-
-    <script src="script.js"></script>
+    <script src="script.js"></script>    
 </body>
 </html>
