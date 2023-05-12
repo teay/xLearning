@@ -13,6 +13,7 @@ function openCity(evt, cityName) {
     }
 
     document.getElementById(cityName).style.display = "block";
+    console.log(evt.currentTarget)
    evt.currentTarget.className += " active"; 
 
 

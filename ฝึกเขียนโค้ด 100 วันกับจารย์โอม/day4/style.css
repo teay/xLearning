@@ -13,6 +13,7 @@
    padding: 14px 16px;
 }
 
+
 .tab button:hover {
    background-color: #ddd;
 }
@@ -26,4 +27,20 @@
    padding: 6px 12px;
    border: 1px solid #ccc;
    border-top: none;
+   animation: fadeEffect 1s;
+   position: relative;
 }
+
+@keyframes fadeEffect {
+   from { opacity: 0; }
+   to { opacity: 1; }
+}
+
+/* Style the close button */
+.topright {
+   position: absolute;
+   right: 1rem;
+   top: 0;
+   cursor: pointer;
+   font-size: 28px;
+ }
