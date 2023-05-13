@@ -1,0 +1,55 @@
+body {
+	background-image: url("forest.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.login-box {
+	width: 320px;
+	height: 420px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+	width: 100%;
+	margin-bottom: 20px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background-color: #228B22; /* Forest Green */
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+	background-color:#008000; /* Lime */
+}
+
+.login-box a {
+	text-decoration:none;
+	font-size:14px;
+	color:#fff;
+}
+
+.login-box p {
+	margin-top:10px
+}
