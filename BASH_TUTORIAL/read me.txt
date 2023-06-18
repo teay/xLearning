@@ -1,0 +1,5 @@
+BASH_TUTORIAL
+ต้องติดตั้ง
+sudo apt install curl
+sudo apt install dos2unix
+sudo apt install ffmpeg

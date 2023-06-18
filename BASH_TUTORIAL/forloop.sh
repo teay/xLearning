@@ -16,7 +16,7 @@ done
 
 for counter in {5..0..-1}; do
     echo $counter
-    sleep 1s
+    sleep 0.5s
     echo '----'
 done
 echo 'take off ^^^^^'
@@ -47,22 +47,22 @@ for f in cats.txt dogs.txt flower.txt; do
     echo '----------'
 done
 
-# url="https://assets.pokemon.com/assets/cms2/img/pokedex/full/"
-# for i in $(cat get_them.txt); do
-#     echo $i
-#     s="${i}.png"
-#     curl -O "${url}${s}"
-# done
+url="https://assets.pokemon.com/assets/cms2/img/pokedex/full/"
+for i in $(cat get_them.txt); do
+    echo $i
+    s="${i}.png"
+    curl -O "${url}${s}"
+done
 
-# for i in $(cat get_them.txt); do
-#     echo $i
-#     f="${i}.png"
-#     ffmpeg -i "$f" "${f%png}webp"
-# done
+for i in $(cat get_them.txt); do
+    echo $i
+    f="${i}.png"
+    ffmpeg -i "$f" "${f%png}webp"
+done
 
-# for f in *.png; do
-#     ffmpeg -i "$f" -vf format=gray "gray_$f"
-# done
+for f in *.png; do
+    ffmpeg -i "$f" -vf format=gray "gray_$f"
+done
 
 for suit in S H D C; do
     for rank in A 2 3 4 5 6 7 8 9 10 J Q K; do
