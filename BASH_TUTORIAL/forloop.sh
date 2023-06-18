@@ -16,7 +16,7 @@ done
 
 for counter in {5..0..-1}; do
     echo $counter
-    sleep 0.5s
+    sleep 0.2s
     echo '----'
 done
 echo 'take off ^^^^^'
@@ -69,4 +69,3 @@ for suit in S H D C; do
     echo -n "${rank}${suit} "
     done
 done
-
