@@ -25,7 +25,7 @@ for i in cpu:
 
 # เก็บข้อมูล
 df = pd.DataFrame({'อันดับ': numls, 'รุ่นCPU': titlels, 'ราคา': pricels})
-df.to_csv('TOP100cpu.csv')
-df.to_excel('TOP100cpu.xlsx')
+df.to_csv('TOP100CPU.csv')
+df.to_excel('TOP100CPU.xlsx')
 print("complete")
 print("############################################################")
